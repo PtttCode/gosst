@@ -1,8 +1,8 @@
 package req
 
 import (
+	"github.com/ptttcode/gosst/internal/pkg/ilog"
 	"github.com/valyala/fasthttp"
-	"gosst/internal/pkg/ilog"
 )
 
 func (rh *requestHandle) FastRequest() (err error) {

@@ -2,8 +2,8 @@ package app
 
 import (
 	"crypto/tls"
+	"github.com/ptttcode/gosst/internal/socks"
 	"github.com/valyala/fasthttp"
-	"gosst/internal/socks"
 	"net/http"
 )
 

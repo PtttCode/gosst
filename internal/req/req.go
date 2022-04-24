@@ -1,6 +1,6 @@
 package req
 
-import "gosst/internal/app"
+import "github.com/ptttcode/gosst/internal/app"
 
 type requestHandle struct {
 	fv *app.FlagVar
